@@ -1,3 +1,4 @@
+# Логирование данных
 def log_function_call(fn):
     def wrapper(*args, **kwargs):
         print(f"Function name: {fn.__name__}")
